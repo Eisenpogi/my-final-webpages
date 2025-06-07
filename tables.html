@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>HTML5 Tables</title>
+</head>
+<body id="table-body"> 
+   
+    <header class="table-header">
+                <div class="head-content">
+                    <b>HTML5 Table</b>
+                </div>
+         <nav>
+            <ul class="table-link">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="tables.html" class="active">HTML5 Table</a></li>
+                <li><a href="list.html">HTML5 Lists</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                
+            </ul>
+               
+         </nav>
+    </header>
+    
+    <hr><br>
+      
+        <h2 class="table-title">Table 1: CSS Table Attributes</h2>
+        <table class="t-border" style="width:75%;">
+                    <tr>
+                        <th>Attribute</th>
+                        <th>Sample Values</th>
+                    </tr>
+                    <tr>
+                        <td>Width</td>
+                        <td>75%</td>
+                    </tr>
+                    <tr>
+                        <td>Cellpadding</td>
+                        <td>8px</td>
+                    </tr>
+                    <tr>
+                        <td>Cellspacing</td>
+                        <td>8px</td>
+                    </tr>
+                    <tr>
+                        <td>Alignment</td>
+                        <td>Center</td>
+                    </tr>
+                    <tr>
+                        <td>Border</td>
+                        <td>1px solid #ccc</td>
+                    </tr>
+                    <tr>
+                        <td>Background Color</td>
+                        <td>#fefefe (light gray)</td>
+                    </tr>
+        </table>
+
+        <hr class="hr-table">
+
+
+        <h2 class="table-title">Table 2: Lecture room</h2>
+        <table class="t-border">
+            <tr>
+                <th colspan="4" style="text-align:center;">Room Schedule</th>
+            </tr>
+            <tr>
+                <th>Room</th>
+                <th>Day</th>
+                <th>Time</th>
+                <th>Teacher</th>
+            </tr>
+            <tr>
+                <td rowspan="2" class="centered">Computer lab</td>
+                <td>Monday</td>
+                <td>9 AM - 11 AM</td>
+                <td>Mr. Ronald</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>1 PM - 3 PM</td>
+                <td>Ms. Jharold</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="3" style="text-align:center;">Maintenance All Day</td>
+            </tr>
+        </table>
+
+        <hr class="hr-table">
+
+        <h2 class="table-title">Table 3: Nested Tables (User Profile & Activity)</h2>
+        <table border="1" class="t-border">
+            <tr>
+            <td class="caption-top">
+                <table border="1" class="t-border">
+                <caption class="caption-top">User Profile</caption>
+                <tr>
+                    <td>Username</td>
+                    <td>Eisen Hower Longcop</td>
+                </tr>
+                <tr>
+                    <td>Status</td>
+                    <td>Active</td>
+                </tr>
+                </table>
+            </td>
+
+            <td class="caption-bottom">
+                <table border="1" class="t-border">
+                
+                <tr>
+                    <td>Date</td>
+                    <td>june</td>
+                </tr>
+                <tr>
+                    <td>Action</td>
+                    <td>Uploaded File</td>
+                </tr>
+                <tr>
+                    <td>Status</td>
+                    <td>Success</td>
+                </tr>
+                <caption class="caption-bottom"><br>Recent Activity</caption>
+                </table>
+            </td>
+            </tr>
+        </table>
+
+        <hr class="hr-table">
+
+
+        <h2 class="table-title">Table 4: Image in Table Cell</h2>
+        <table class="t-border">
+            <tr>
+                <td style="text-align:center;">
+                    <img src="images/baki.jpg"/>
+                </td>
+            </tr>
+        </table>
+
+        <hr class="hr-table">
+
+
+        <h2 class="table-title">Table 5: Text Alignment Styles </h2>
+        <table class="t-border" style="width:300px; height:180px;">
+            <tr>
+              <td class="centered vtop">CS 42</td>
+            </tr>
+            <tr>
+              <td class="centered">CS 42</td>
+            </tr>
+            <tr>
+              <td class="centered vbottom">CS 42</td>
+            </tr>
+        </table>
+
+ </body>
+</html>
